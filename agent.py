@@ -2,7 +2,7 @@
 Zayak Craft — WhatsApp AI Agent
 Powered by Claude API + Meta WhatsApp Cloud API
 Agent Name: Zara
-"""h
+"""
 
 import os
 import json
