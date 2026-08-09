@@ -2,7 +2,7 @@
 Zayak Craft — WhatsApp AI Agent
 Powered by Claude API + Meta WhatsApp Cloud API
 Agent Name: Zara
-"""
+"""h
 
 import os
 import json
@@ -332,8 +332,9 @@ def home():
 # ─────────────────────────────────────────
 # STARTUP
 # ─────────────────────────────────────────
+init_db()
+
 if __name__ == "__main__":
-    init_db()
     print("🚀 Zara is starting up...")
     print("📱 Zayak Craft WhatsApp AI Agent — Ready")
     app.run(host="0.0.0.0", port=5000, debug=False)
